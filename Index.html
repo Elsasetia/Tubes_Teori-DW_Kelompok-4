@@ -17,7 +17,10 @@
             <a href="#produk">Produk</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
+
+            <!-- TOMBOL LOGIN (DIPAKAI JS UNTUK LOGOUT JUGA) -->
             <button id="btnLogin">Login</button>
+
             <button id="btnCart" class="cartBtn">🛒 <span id="cartCount">0</span></button>
         </nav>
     </header>
@@ -44,13 +47,18 @@
         <div id="produkList" class="produk-container"></div>
     </section>
 
-    <!-- LOGIN POPUP -->
+    <!-- LOGIN POPUP (FINAL VERSION) -->
     <div id="loginPopup" class="popup">
         <div class="popup-content">
-            <h3>Login / Register</h3>
+
+            <h3 id="popupTitle">Login</h3>
+
             <input id="loginPhone" type="text" placeholder="Nomor Telepon">
             <input id="loginPass" type="password" placeholder="Password">
-            <button id="loginSubmit">Login</button>
+
+            <button id="loginSubmit" data-mode="login">Login</button>
+            <button id="registerBtn">Register</button>
+
             <button id="closePopup" class="closeBtn">X</button>
         </div>
     </div>
