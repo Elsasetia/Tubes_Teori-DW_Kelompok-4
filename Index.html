@@ -18,10 +18,8 @@
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
 
-            <!-- TOMBOL LOGIN (DIPAKAI JS UNTUK LOGOUT JUGA) -->
             <button id="btnLogin">Login</button>
-
-            <button id="btnCart" class="cartBtn">🛒 <span id="cartCount">0</span></button>
+            <button id="btnCart" class="cartBtn" onclick="openCart()">🛒 <span id="cartCount">0</span></button>
         </nav>
     </header>
 
@@ -44,10 +42,39 @@
     <!-- PRODUK LIST -->
     <section id="produk" class="produk">
         <h2>Daftar Produk</h2>
-        <div id="produkList" class="produk-container"></div>
+        <div class="produk-wrapper">
+            <div id="produkList" class="produk-container"></div>
+        </div>
     </section>
 
-    <!-- LOGIN POPUP (FINAL VERSION) -->
+    <!-- POPUP DETAIL PRODUK -->
+    <div id="popupDetail" class="popup">
+        <div class="popup-detail-box">
+            <img id="detailImg">
+            <h2 id="detailName"></h2>
+            <p id="detailPrice"></p>
+            <p id="detailSpec"></p>
+            <p id="detailRating"></p>
+
+            <button id="addCartDetail">Tambah Keranjang 🛒</button>
+            <button onclick="closeDetail()">Tutup</button>
+        </div>
+    </div>
+
+    <!-- POPUP KERANJANG -->
+    <div id="cartPopup" class="popup">
+        <div class="popup-cart-box">
+            <h2>Keranjang</h2>
+
+            <div id="cartList"></div>
+
+            <h3 id="cartTotal">Total: Rp 0</h3>
+
+            <button onclick="closeCart()">Tutup</button>
+        </div>
+    </div>
+
+    <!-- POPUP LOGIN (ASLI) -->
     <div id="loginPopup" class="popup">
         <div class="popup-content">
 
