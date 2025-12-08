@@ -249,10 +249,6 @@ kategoriBtn.forEach(btn => {
   });
 });
 
-
-// ==========================
-// POPUP DETAIL PRODUK
-// ==========================
 function openDetail(p) {
   const auth = JSON.parse(localStorage.getItem("auth"));
   if (!auth) {
@@ -291,10 +287,6 @@ function closeDetail() {
   document.getElementById("popupDetail").style.display = "none";
 }
 
-
-// ==========================
-// LOGIN SYSTEM
-// ==========================
 const loginPopup = document.getElementById("loginPopup");
 const btnLogin = document.getElementById("btnLogin");
 const loginSubmit = document.getElementById("loginSubmit");
