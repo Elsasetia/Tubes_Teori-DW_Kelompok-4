@@ -123,14 +123,14 @@ const products = {
       name: "Duplo DP-U950",
       price: 25000000,
       year: 2019,
-      img:"img/percetakan/Duplo-U950.jpg",
+      img:"img/Mesin percetakan/Duplo DP-U950.jpg",
       spec:"Mesin Duplikasi Digital • Volume Besar"
     },
     { 
       name: "Haidelberg Speedmaster CX 102",
       price: 20000000,
       year: 2019,
-      img:"img/percetakan/CX 102.jpg",
+      img:"img/Mesin percetakan/Haidelberg Speedmaster CX 102.jpg",
       spec:"Offset Sheet-fed • Multi-color"
     },
     { 
@@ -144,14 +144,14 @@ const products = {
       name: "Mesin Sablon Rotari 4 Warna",
       price: 35000000,
       year: 2022,
-      img:"img/percetakan/Mesin Sablon.jpg",
+      img:"img/Mesin percetakan/Mesin Sablon Rotari 4 Warna.jpg",
       spec:"Screen Printing • Kaos • Rotari 4W"
     },
     { 
       name: "Mark Andy Digital Series",
       price: 400000000,
       year: 2018,
-      img:"img/percetakan/Mark Andy.jpg",
+      img:"img/Mesin percetakan/Mark Andy Digital Series.jpg",
       spec:"Flexography • Roll-to-Roll"
     }
   ],

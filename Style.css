@@ -18,7 +18,7 @@ header {
     font-weight: bold;
 }
 .logo img {
-    width: 250px;   /* sesuaikan dengan ukuran yang diinginkan */
+    width: 100px;   /* sesuaikan dengan ukuran yang diinginkan */
     height: auto;  /* proporsional */
 }
 
@@ -461,7 +461,7 @@ nav a, nav button {
 .kontak-map {
     flex: 1;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 100px;
     height: 280px;
 }
 
@@ -616,9 +616,9 @@ nav a, nav button {
 /* MAP DI BAWAH */
 .kontak-map {
     width: 100%;
-    max-width: 900px;
-    height: 300px;
-    margin-bottom: 30px;
+    max-width: 500px;
+    height: 100px;
+    margin-bottom: 100px;
 }
 
 .kontak-map iframe {
@@ -635,3 +635,16 @@ footer {
     padding: 15px 10px;
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .btnKategori {
+        flex: 1 1 45%;   /* 2 tombol per baris */
+    }
+}
+
+@media (max-width: 480px) {
+    .btnKategori {
+        flex: 1 1 100%;  /* 1 tombol per baris */
+    }
+}
+
